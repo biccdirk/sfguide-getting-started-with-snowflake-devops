@@ -7,7 +7,7 @@ CREATE OR ALTER WAREHOUSE COMPUTE_WH
 
 
 -- Separate database for git repository
-CREATE OR ALTER DATABASE QUICKSTART_COMMON;
+CREATE OR ALTER DATABASE QUICKSTART_{{environment}}; 
 
 
 -- API integration is needed for GitHub integration
